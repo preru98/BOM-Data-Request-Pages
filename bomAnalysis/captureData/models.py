@@ -19,7 +19,5 @@ class data(models.Model):
         record='Time -> {}  |  Pressure -> Avg. : {} | Min. : {} | Max. : {}  Wind Speed -> Avg. : {} | Min. : {} | Max. : {} '.format(str(self.pub_time),str(self.pressure_avg), str(self.pressure_min), str(self.pressure_max), str(self.wind_speed_avg), str(self.wind_speed_min), str(self.wind_speed_max))
         return record
 
-#constructor
-#=data(pressure_avg=,pressure_min=,pressure_max=,wind_speed_avg=,wind_speed_min=,wind_speed_max
 
 
